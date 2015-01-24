@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'QuartzCore', 'AudioToolbox'
     
   s.dependency 'BlocksKit', '2.2.5'
-  s.dependency 'StandardPaths', '1.6.2'
+  s.dependency 'StandardPaths', '1.6.3'
 
   s.subspec 'Additions' do |sp|
     sp.source_files = 'Additions/*.{h,m}'
